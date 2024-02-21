@@ -1,0 +1,20 @@
+.Card{
+    max-width: 30rem;
+    height: 10rem;
+}
+.Card-Img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    cursor: pointer;
+}
+.Card .title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Card .text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height:5rem ;
+}
